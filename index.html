@@ -17,133 +17,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter Clone - Alexander Abanobi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
 
 </head>
 
-<body>
-    <div class="login-div-container">
-        <div class="login-page-header">
-            <img id="twitter-login-page-image" src="images/twitter.png" alt="Twitter login page image">
-            <img src="images/photo_ABANOBI.png" alt="alex login page image" id="alex-login-page-image">
+<body id="login-body">
+    <div class="container-fluid login-container d-flex flex-column" id="login-div-container">
+        <div class="row d-flex justify-content-between left-right-big-container">
+
+            <div class="login-right-side d-flex flex-column justify-content-around align-items-center  col-7 g-0">
+                <div class="row login-page-header d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-6 twitter-login-page-image-container d-flex justify-content-center">
+                        <img class="img-fluid" id="twitter-login-page-image" src="images/twitterr.png" alt="Twitter login page image">
+                    </div>
+                    <!-- <div class="col-6"> <img class="img-fluid" src="images/photo_ABANOBI.png" alt="alex login page image" id="alex-login-page-image">
+                    </div> -->
+                    <span id="welcome-message">Welcome to Twitter by <br> Alexander Abanobi</span>
+                </div>
+
+
+                <button class="row form-control mt-3 mb-3 g-0" id="signup-login-button">Signup & Login</button>
+
+
+            </div>
+            <div class="col-5 g-0" id="login-background-image-container">
+                <img class="img-fluid" id='login-background-image' src="images/twitter3.jpg" alt="">
+            </div>
+
+
+
         </div>
-        <div class="login-page-body">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username">
-            <label for="password">Password:</label>
-            <input type="text" id="password" name="password">
-            <input type="file" id="user-image" name="user-image" accept="image/png, image/jpeg">
+
+        <div class="bottom-login-navs row d-flex g-0 justify-content-center">
+            <div class="about-details-line d-flex justify-content-center align-items-center flex-wrap">
+                <span class="about-detail">About</span>
+                <span class="about-detail">Help Center</span>
+                <span class="about-detail">Terms of Service</span>
+                <span class="about-detail">Privacy Policy</span>
+                <span class="about-detail">Ads Info</span>
+                <span class="about-detail">Blog</span>
+                <span class="about-detail">Status</span>
+                <span class="about-detail">Careers</span>
+                <span class="about-detail">Brand Resources</span>
+                <span class="about-detail">Advertising</span>
+                <span class="about-detail">Marketing</span>
+                <span class="about-detail">Twitter for Business</span>
+                <span class="about-detail">Developers</span>
+                <span class="about-detail">Directory</span>
+                <span class="about-detail">Settings</span>
+            </div>
         </div>
-        <div class="login-page-footer">
-            <span id="copyright">&copy;2021</span>
-        </div>
-        <button>Login</button>
+
+
+
+
+
+
+
     </div>
 
-    <nav class="topmost">
-        <img src="" alt="user-image">
-        <span id="home-tag">Home</span>
-        <i class="bi bi-stars"></i>
-    </nav>
 
-    <main class="tweets-container">
-        <div class="top-category-search-pane">
-            <span class="trending-category-top-thumb">
-                <i class="bi bi-chat-fill"></i>
-                <span class="the-trending"></span>
-            </span>
-        </div>
 
-        <div class="tweet-container-sub">
-            <div class="tweet-sender-image-div">
-                <img class="tweet-sender-image" src="" alt="image of the tweet sender">
-            </div>
-            <div class="tweet-container-sub-right">
-                <div class="tweet-container-sub-right-header">
-                    <span id="tweeter-name"></span>
-                    <i class="bi bi-patch-check-fill"></i>
-                    <span id="tweeter-username"></span>
-                    <span id="head-dot">.</span>
-                    <span id="hours-ago"></span>
-                    <i class="bi bi-three-dots"></i>
+
+
+    <form class="row login-form" id="" action="index2.html" method="post">
+        <div class="container login-page-body mt-5 d-flex flex-column justify-content-around align-items-center">
+
+            <div class="row login-inputs-pack d-flex justify-content-between align-items-center">
+                <div class="form-group1">
+                    <label for="firstname" class="col-2 g-0 login-input-label">Firstname:</label>
+                    <input class="col-4 form-control form-control1 g-0" type="text" id="firstname" name="firstname">
                 </div>
-                <div class="tweet-container-sub-right-body">
-                    <div class="actual-tweet"></div>
-                </div>
-                <div class="tweet-container-sub-right-footer">
-                    <span id="likes-container">
-                        <i class="bi bi-chat-right"></i>
-                        <i class="bi bi-arrow-counterclockwise"></i>
-                        <i class="bi bi-heart"></i>
-                        <i class="bi bi-share"></i>
-                    </span>
-
+                <div class="form-group1">
+                    <label for="lastname" class="col-2 g-0 login-input-label">Lastname:</label>
+                    <input class="col-4 form-control form-control1 g-0" type="text" id="lastname" name="lastname">
                 </div>
             </div>
-        </div>
-
-        <div class="tweet-fixed-button">
-            <img id="tweet-button" src="images/twitter.png" alt="Tweet button">
-        </div>
 
 
-        <div class="see-new-tweets-div">
-            <span class="see-new">
-                <i class="bi bi-arrow-up"></i>
-                <span class="the-text">See new Tweets</span>
-            </span>
-        </div>
-
-        <footer>
-            <div class="footer-top">
-                <span class="trending-category-top-thumb">
-                    <i class="bi bi-chat-fill"></i>
-                    <span class="the-trending"></span>
-                </span>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-home">
-                    <i class="bi bi-house"></i>
+            <div class="row login-inputs-pack d-flex justify-content-between align-items-center">
+                <div class="form-group1">
+                    <label for="username" class="col-2 g-0 login-input-label">Username:</label>
+                    <input class="col-4 form-control form-control1 g-0" type="text" id="username" name="username">
                 </div>
-
-                <div class="footer-search">
-                    <i class="bi bi-search"></i>
-                </div>
-                <div class="footer-notifications">
-                    <i class="bi bi-bell"></i>
-                </div>
-
-                <div class="footer-envelope">
-                    <i class="bi bi-envelope"></i>
+                <div class="form-group1">
+                    <label for="password" class="col-2 g-0 login-input-label">Password:</label>
+                    <input class="col-4 form-control form-control1 g-0" type="password" id="username" name="password">
                 </div>
             </div>
-        </footer>
 
-    </main>
+            <div class="row login-inputs-pack d-flex justify-content-between align-items-center">
+                <div class="custom-file">
+                    <input type="file" class="g-0 custom-file-input" id="customFile">
+                    <label class="custom-file-label g-0" for="customFile">Choose file</label>
+                </div>
+            </div>
 
+            <input type="submit" class="row form-control form-control2 mb-3 g-0" id="login-button1" value="Login">
 
-
-
-
-
-
-
-
-
-
-
+            <div class="row mb-5 login-page-footer">
+                <span id="copyright">&copy;2021 Alexander Abanobi</span>
+            </div>
 
 
+    </form>
 
-
-
-
-
-
-
-
-
-
-
+    <!-- end of login container -->
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 

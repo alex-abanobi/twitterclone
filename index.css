@@ -1,0 +1,594 @@
+html,
+body {
+    /* background-color: black; */
+    min-width: 600px;
+}
+
+* {
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    /* background-color: black; */
+    height: auto;
+    box-sizing: border-box;
+    min-width: 600px;
+}
+
+.login-right-side {
+    height: 50vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5vw;
+}
+
+#login-background-image-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 5vw;
+}
+
+.form-control {
+    border-radius: 15vw;
+    height: 6vw;
+    width: auto;
+    box-sizing: border-box;
+    color: white;
+    background-color: #1da1f2;
+    box-shadow: 2px 2px 2px #d3d3d3;
+}
+
+.form-control:hover {
+    transition: background-color 500ms;
+    background-color: white;
+    color: #1da1f2;
+}
+
+.form-group {
+    width: 100%;
+}
+
+#login-background-image {
+    /* height: inherit; */
+    width: 100%;
+    height: 97%;
+    /* box-shadow: 4px 4px 15px #7f7f83; */
+    opacity: 0.9;
+}
+
+#signup-login-button {
+    width: 40vw;
+    height: 8vw;
+    font-size: 3vw;
+    font-weight: bolder;
+    color: white;
+    background-color: #1da1f2;
+}
+
+.tweet-fixed-button {
+    width: 10vw;
+    height: 10vw;
+    z-index: 100;
+    position: fixed;
+    bottom: 13vh;
+    left: 80vw;
+    transition: 500ms;
+}
+
+#tweet-button {
+    all: inherit;
+    filter: drop-shadow(4px 4px 10px #a9a9b3);
+}
+
+#tweet-button:hover {
+    transform: rotate(360deg);
+    filter: invert();
+}
+
+footer {
+    position: fixed;
+    bottom: 0vh;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #1da1f2;
+}
+
+#login-div-container {
+    /* border: 2px solid #1da1f2; */
+    /* margin: 3vh auto; */
+    width: inherit;
+    /* padding: 2vh 2vw; */
+    /* z-index: 200; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#signup-login-button:hover {
+    background-color: white;
+    color: #1da1f2;
+    transition: ease-in-out background-color 500ms;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.bottom-login-navs {
+    background-color: white;
+    height: 10%;
+    width: 100%;
+}
+
+.login-form {
+    height: 50%;
+    display: none;
+}
+
+.row {
+    margin: 0;
+}
+
+.login-page-header {
+    height: 60%;
+}
+
+#alex-login-page-image {
+    border-radius: 50%;
+    filter: drop-shadow(4px 4px 12px grey);
+}
+
+#welcome-message {
+    font-weight: 800;
+    font-size: 4vw;
+    text-align: center;
+    /* color: #1da1f2; */
+}
+
+.login-container {
+    height: inherit;
+}
+
+.twitter-login-page-image-container {
+    width: 50%;
+    height: 50%;
+}
+
+#twitter-login-page-image {
+    height: 80px;
+    width: 100px;
+}
+
+#twitter-login-page-image:hover {
+    transition: 500ms;
+    filter: drop-shadow(4px 4px 12px grey);
+    transform: rotate(360deg);
+    transition: transform 1500ms;
+    /* background-image: url('images/twitterr.png'); */
+}
+
+.about-details-line {
+    width: 100%;
+    height: 100%;
+}
+
+.about-detail {
+    font-size: 15px;
+    width: auto;
+    line-height: 0.5rem;
+    height: 2rem;
+    text-align: center;
+    margin: 0 2vw;
+}
+
+.about-detail:hover {
+    cursor: pointer;
+}
+
+.left-right-big-container {
+    height: 90%;
+}
+
+@media(min-width:200px) {
+    * {
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        /* font-family: 'Roboto', sans-serif; */
+        font-family: 'Quicksand', sans-serif;
+    }
+    body {
+        /* background-color: black; */
+        height: auto;
+        box-sizing: border-box;
+        min-width: 600px;
+    }
+    .login-right-side {
+        height: 50vh;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 5vw;
+    }
+    #login-background-image-container {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 5vw;
+    }
+    .form-control {
+        border-radius: 15vw;
+        height: 6vw;
+        width: auto;
+        box-sizing: border-box;
+        color: white;
+        background-color: #1da1f2;
+        box-shadow: 2px 2px 2px #d3d3d3;
+    }
+    .form-control:hover {
+        transition: background-color 500ms;
+        background-color: white;
+        color: #1da1f2;
+    }
+    .form-group {
+        width: 100%;
+    }
+    #login-background-image {
+        /* height: inherit; */
+        width: 100%;
+        height: 97%;
+        /* box-shadow: 4px 4px 15px #7f7f83; */
+        opacity: 0.9;
+    }
+    #signup-login-button {
+        width: 40vw;
+        height: 8vw;
+        font-size: 3vw;
+        font-weight: bolder;
+        color: white;
+        background-color: #1da1f2;
+    }
+    .tweet-fixed-button {
+        width: 10vw;
+        height: 10vw;
+        z-index: 100;
+        position: fixed;
+        bottom: 13vh;
+        left: 80vw;
+        transition: 500ms;
+    }
+    #tweet-button {
+        all: inherit;
+        filter: drop-shadow(4px 4px 10px #a9a9b3);
+    }
+    #tweet-button:hover {
+        transform: rotate(360deg);
+        filter: invert();
+    }
+    footer {
+        position: fixed;
+        bottom: 0vh;
+        left: 0;
+        width: 100%;
+        height: 10vh;
+        background-color: #1da1f2;
+    }
+    #login-div-container {
+        /* border: 2px solid #1da1f2; */
+        /* margin: 3vh auto; */
+        width: inherit;
+        /* padding: 2vh 2vw; */
+        /* z-index: 200; */
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #signup-login-button:hover {
+        background-color: white;
+        color: #1da1f2;
+        transition: ease-in-out background-color 500ms;
+    }
+    .container {
+        box-sizing: border-box;
+    }
+    .bottom-login-navs {
+        background-color: white;
+        height: 10%;
+        width: 100%;
+    }
+    .login-form {
+        height: 50%;
+        display: none;
+    }
+    .row {
+        margin: 0;
+    }
+    .login-page-header {
+        height: 60%;
+    }
+    #alex-login-page-image {
+        border-radius: 50%;
+        filter: drop-shadow(4px 4px 12px grey);
+    }
+    #welcome-message {
+        font-weight: 800;
+        font-size: 4vw;
+        text-align: center;
+        /* color: #1da1f2; */
+    }
+    .login-container {
+        height: inherit;
+    }
+    .twitter-login-page-image-container {
+        width: 50%;
+        height: 50%;
+    }
+    #twitter-login-page-image {
+        height: 80px;
+        width: 100px;
+    }
+    #twitter-login-page-image:hover {
+        transition: 500ms;
+        filter: drop-shadow(4px 4px 12px grey);
+        transform: rotate(360deg);
+        transition: transform 1500ms;
+        /* background-image: url('images/twitterr.png'); */
+    }
+    .about-details-line {
+        width: 100%;
+        height: 100%;
+    }
+    .about-detail {
+        font-size: 15px;
+        width: auto;
+        line-height: 0.5rem;
+        height: 2rem;
+        text-align: center;
+        margin: 0 2vw;
+    }
+    .about-detail:hover {
+        cursor: pointer;
+    }
+    .left-right-big-container {
+        height: 90%;
+    }
+    /* added javascript classes are here. they are to be added to the other media query section */
+    .show-login-form {
+        display: flex;
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        z-index: 200;
+        width: 80vw;
+        height: 50vh;
+        background-color: #1da1f2;
+        opacity: 0.9;
+        box-shadow: 4px 4px 20px black;
+        /* border-radius: 5vw; */
+    }
+    .form-group1 {
+        width: 50%;
+        height: 12vw;
+    }
+    .form-control1 {
+        height: 6vw;
+        width: 100%;
+        box-shadow: 2px 2px 10px grey;
+    }
+    .login-button1:hover {
+        color: #1da1f2;
+        background-color: white;
+    }
+    .form-control2 {
+        width: 80%;
+    }
+    .form-control2:hover {
+        background-color: white;
+    }
+    .login-input-label {
+        color: white;
+    }
+    .custom-file-label,
+    .custom-file-input {
+        color: white;
+    }
+    .login-inputs-pack {
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) {
+    * {
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        /* font-family: 'Roboto', sans-serif; */
+        font-family: 'Quicksand', sans-serif;
+    }
+    body {
+        /* background-color: black; */
+        height: 100vh;
+        box-sizing: border-box;
+        min-width: 600px;
+    }
+    .form-group {
+        width: 70%;
+    }
+    #login-background-image {
+        /* height: inherit; */
+        width: 100%;
+        height: 97%;
+        /* box-shadow: 4px 4px 15px #7f7f83; */
+        opacity: 0.9;
+    }
+    #login-background-image-container {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        height: 100%;
+        width: 40%;
+    }
+    #signup-login-button {
+        width: 40vw;
+        height: 8vw;
+        font-size: 3vw;
+        font-weight: bolder;
+        color: white;
+        background-color: #1da1f2;
+    }
+    .tweet-fixed-button {
+        width: 10vw;
+        height: 10vw;
+        z-index: 100;
+        position: fixed;
+        bottom: 13vh;
+        left: 80vw;
+        transition: 500ms;
+    }
+    #tweet-button {
+        all: inherit;
+        filter: drop-shadow(4px 4px 10px #a9a9b3);
+    }
+    #tweet-button:hover {
+        transform: rotate(360deg);
+        filter: invert();
+    }
+    footer {
+        position: fixed;
+        bottom: 0vh;
+        left: 0;
+        width: 100%;
+        height: 10vh;
+        background-color: #1da1f2;
+    }
+    #login-div-container {
+        /* border: 2px solid #1da1f2; */
+        /* margin: 3vh auto; */
+        width: inherit;
+        /* padding: 2vh 2vw; */
+        /* z-index: 200; */
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #signup-login-button:hover {
+        background-color: white;
+        color: #1da1f2;
+        transition: ease-in-out background-color 500ms;
+    }
+    .container {
+        box-sizing: border-box;
+    }
+    .bottom-login-navs {
+        background-color: white;
+        height: 10%;
+        width: 100%;
+    }
+    .login-right-side {
+        height: 90%;
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .login-form {
+        height: 50%;
+        display: none;
+    }
+    .row {
+        margin: 0;
+    }
+    .login-page-header {
+        height: 60%;
+    }
+    #alex-login-page-image {
+        border-radius: 50%;
+        filter: drop-shadow(4px 4px 12px grey);
+    }
+    #welcome-message {
+        font-weight: 800;
+        font-size: 4vw;
+        text-align: center;
+        /* color: #1da1f2; */
+    }
+    .login-container {
+        height: inherit;
+    }
+    .twitter-login-page-image-container {
+        width: 50%;
+        height: 50%;
+    }
+    #twitter-login-page-image {
+        height: 80px;
+        width: 100px;
+    }
+    #twitter-login-page-image:hover {
+        transition: 500ms;
+        filter: drop-shadow(4px 4px 12px grey);
+        transform: rotate(360deg);
+        transition: transform 1500ms;
+        /* background-image: url('images/twitterr.png'); */
+    }
+    .about-details-line {
+        width: 100%;
+        height: 100%;
+    }
+    .about-detail {
+        font-size: 15px;
+        width: auto;
+        line-height: 0.5rem;
+        height: 2rem;
+        text-align: center;
+        margin: 0 2vw;
+    }
+    .about-detail:hover {
+        cursor: pointer;
+    }
+    .left-right-big-container {
+        height: 90%;
+    }
+    /* added classes from javascript to be added to the smaller view media query */
+    .show-login-form {
+        display: flex;
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        z-index: 200;
+        width: 80vw;
+        height: 70vh;
+        background-color: #1da1f2;
+        opacity: 0.9;
+        box-shadow: 4px 4px 20px black;
+        /* border-radius: 5vw; */
+    }
+    .form-group1 {
+        width: 50%;
+        height: 12vw;
+    }
+    .form-control1 {
+        height: 6vw;
+        width: 100%;
+        box-shadow: 2px 2px 10px grey;
+    }
+    .login-button1:hover {
+        color: #1da1f2;
+        background-color: white;
+    }
+    .form-control2 {
+        width: 80%;
+    }
+    .form-control2:hover {
+        background-color: white;
+    }
+    .login-input-label {
+        color: white;
+    }
+    .custom-file-label,
+    .custom-file-input {
+        color: white;
+    }
+    .login-inputs-pack {
+        width: 100%;
+    }
+}
