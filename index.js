@@ -1,8 +1,11 @@
 let signInButton = document.querySelector('#signup-login-button');
-const q = str => document.querySelector(str);
-let loginDivContainer = q('#login-div-container');
-let loginForm = q('.login-form');
+const find = str => document.querySelector(str);
+let loginDivContainer = find('#login-div-container');
+let loginForm = find('.login-form');
+let body = document.querySelector('body');
 
+
+let tweetText = find('#tweet-text');
 
 signInButton.addEventListener('click', () => {
 
